@@ -1,0 +1,32 @@
+{
+  "name": "bs-gcloud",
+  "version": "0.0.1",
+  "description": "Google Cloud Datastore bindings of BuckleScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -clean-world && bsb -make-world",
+    "clean-build": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkazuo/bs-gcloud"
+  },
+  "keywords": [
+    "BuckleScript",
+    "OCaml",
+    "Datastore"
+  ],
+  "author": "Koga Kazuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkazuo/bs-gcloud/issues"
+  },
+  "homepage": "https://github.com/kkazuo/bs-gcloud",
+  "devDependencies": {
+    "bs-platform": "^1.7.3"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "~1.0.0"
+  }
+}

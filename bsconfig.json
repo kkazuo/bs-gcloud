@@ -1,0 +1,6 @@
+{
+  "name": "bs-gcloud",
+  "sources": {
+    "dir": "src"
+  }
+}
